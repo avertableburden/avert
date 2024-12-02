@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   template: template.html
-last_built: 2024-12-02T06:33Z
+last_built: 2024-12-02T20:35Z
 urls:
   reference: https://ready4-dev.github.io/template/reference
   article: https://ready4-dev.github.io/template/articles
