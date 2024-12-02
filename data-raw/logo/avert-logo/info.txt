@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Coda-Regular
+font link: https://fonts.google.com/specimen/Coda
+font author: Vernon Adams
+font author site: http://sansoxygen.com/
+
+
+icon designer: kiddo
+icon designer link: /indygo
+        
+{"bg":"#FDEDDF","icon-gradient-0":"#E63500","icon-gradient-1":"#FFC316","font":"#361A02","slogan":"#4a2e16"}
+      

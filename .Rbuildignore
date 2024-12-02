@@ -20,3 +20,17 @@
 ^initial_setup\.R$
 ^doc$
 ^Meta$
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw/logo/avert-logo\.zip$
+^data-raw/logo/avert-logo/cover\.png$
+^data-raw/logo/avert-logo/default\.png$
+^data-raw/logo/avert-logo/info\.txt$
+^data-raw/logo/avert-logo/profile\.png$
+^data-raw/logo/avert-logo/vector/default-monochrome-black\.svg$
+^data-raw/logo/avert-logo/vector/default-monochrome-white\.svg$
+^data-raw/logo/avert-logo/vector/default-monochrome\.svg$
+^data-raw/logo/avert-logo/vector/default\.svg$
+^data-raw/logo/avert-logo/vector/isolated-layout\.svg$
+^data-raw/logo/avert-logo/vector/isolated-monochrome-black\.svg$
+^data-raw/logo/avert-logo/vector/isolated-monochrome-white\.svg$

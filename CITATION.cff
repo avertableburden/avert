@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "Author1Given Author1Family (2024). template: Do Something Related to Mental Health Economic Modelling. Version 0.0.0.9002. "
+message: "Matthew Hamilton (2024). avert: Predict Avertable Burden Due to Mental Disorders. Version 0.0.0.9002. "
 authors:
-  - family-names: "Author1Family"
-    given-names: "Author1Given"
-title: "template: Do Something Related to Mental Health Economic Modelling"
+  - family-names: "Matthew"
+    given-names: "Hamilton"
+title: "avert: Predict Avertable Burden Due to Mental Disorders"
 version: 0.0.0.9002
 date-released: 2024-12-02
-url: "https://ready4-dev.github.io/template/"
+url: "https://ready4-dev.github.io/avert/"

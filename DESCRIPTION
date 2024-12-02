@@ -3,8 +3,7 @@ Title: Do Something Related to Mental Health Economic Modelling
 Version: 0.0.0.9004
 Authors@R: c(
     person("Matthew", "Hamilton", , "matthew.hamilton2@monash.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-7407-9194")),
-    person("CopyrightHolder", role = "cph")
+           comment = c(ORCID = "0000-0001-7407-9194"))
   )
 Description: A description of what this model module library does. Mention
     that it is developed with the ready4 framework
@@ -13,7 +12,7 @@ Description: A description of what this model module library does. Mention
     the process of testing and documenting the library.  You can also
     direct users with any questions about the library to the maintainer's
     email address (supply email here).
-License: GPL-3 + file LICENSE
+License: GPL-3
 URL: https://avertableburden.github.io/avert/,
     https://github.com/avertableburden/avert,
     https://ready4-dev.github.io/ready4/
@@ -23,6 +22,7 @@ RoxygenNote: 7.3.2
 Suggests: 
     knitr,
     knitrBootstrap,
+    pkgload,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
