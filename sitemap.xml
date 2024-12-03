@@ -1,6 +1,7 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://avertableburden.github.io/avert/404.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/LICENSE.html</loc></url>
+<url><loc>https://avertableburden.github.io/avert/articles/V_01.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/articles/avert.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/articles/index.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/authors.html</loc></url>
@@ -8,7 +9,9 @@
 <url><loc>https://avertableburden.github.io/avert/reference/avert-package.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/reference/deprecated.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/reference/dotdata.html</loc></url>
-<url><loc>https://avertableburden.github.io/avert/reference/get_this_from_that.html</loc></url>
+<url><loc>https://avertableburden.github.io/avert/reference/get_input_data.html</loc></url>
+<url><loc>https://avertableburden.github.io/avert/reference/get_parameter_value.html</loc></url>
+<url><loc>https://avertableburden.github.io/avert/reference/get_project_repos.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/reference/index.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/reference/nseequals.html</loc></url>
 <url><loc>https://avertableburden.github.io/avert/reference/pipe.html</loc></url>
