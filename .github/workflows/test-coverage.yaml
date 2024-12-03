@@ -36,4 +36,8 @@ jobs:
 
       - name: Test coverage
         run: covr::codecov(quiet = FALSE)
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: avertableburden/avert
         shell: Rscript {0}
+                
