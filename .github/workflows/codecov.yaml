@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,4 +28,7 @@ jobs:
 
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: avertableburden/avert
           
