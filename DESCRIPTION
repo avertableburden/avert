@@ -1,6 +1,6 @@
 Package: avert
 Title: Predict the Avertable Burden Attributable to Mental Disorders
-Version: 0.0.0.9005
+Version: 0.0.0.9006
 Authors@R: c(
     person("Matthew", "Hamilton", , "matthew.hamilton2@monash.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7407-9194")),
@@ -33,6 +33,9 @@ Imports:
     magrittr,
     methods,
     purrr,
-    ready4,
-    ready4use,
+    ready4use (>= 0.0.0.9248),
     rlang
+Depends: 
+    ready4
+Remotes: 
+    ready4-dev/ready4use
