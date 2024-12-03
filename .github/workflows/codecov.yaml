@@ -7,11 +7,29 @@ jobs:
   test:
     name: Run tests and collect coverage
     runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-r@v2
         with:
-          fetch-depth: 0
+          use-public-rspm: true
+
+    # Addresses issue with incompatibility between libcurl4-gnutls-dev and libcurl4-openssl-dev
+    # Below fix is a customisation of approach outlined in https://github.com/r-hub/sysreqsdb/issues/77#issuecomment-620025428
+      - name: Install libraptor on Linux
+        if: runner.os == 'Linux'
+        run: |
+          sudo add-apt-repository ppa:cran/librdf
+          sudo apt update
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::XML, any::covr
+          needs: coverage
 
       - name: Set up Node
         uses: actions/setup-node@v4
