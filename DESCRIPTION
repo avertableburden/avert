@@ -3,8 +3,7 @@ Title: Predict the Avertable Burden Attributable to Mental Disorders
 Version: 0.0.0.9007
 Authors@R: c(
     person("Matthew", "Hamilton", , "matthew.hamilton2@monash.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-7407-9194")),
-    person("CopyrightHolder", role = "cph")
+           comment = c(ORCID = "0000-0001-7407-9194"))
   )
 Description: An empty shell of an in development library for predicting
     the burden due to mental disorders that is theoretically avertable
@@ -14,7 +13,7 @@ Description: An empty shell of an in development library for predicting
     publicly available as part of the process of testing and documenting
     the library.  For further information email
     matthew.hamilton2@monash.edu.
-License: GPL-3 + file LICENSE
+License: GPL-3
 URL: https://avertableburden.github.io/avert/,
     https://github.com/avertableburden/avert,
     https://ready4-dev.github.io/ready4/
@@ -24,6 +23,7 @@ RoxygenNote: 7.3.2
 Suggests: 
     knitr,
     knitrBootstrap,
+    pkgload,
     rmarkdown,
     testthat
 VignetteBuilder: knitr

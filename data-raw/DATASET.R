@@ -43,6 +43,7 @@ z <- ready4pack::make_pt_ready4pack_manifest(x,
 z <- ready4::author(z)
 #ready4::write_extra_pkgs_to_actions(path_to_dir_1L_chr = ".github/workflows", consent_1L_chr = "Y")
 ready4::write_to_edit_workflow("pkgdown.yaml", consent_1L_chr = "Y") # In other packages, run for "test-coverage.yaml" as well.
+# ready4::write_to_edit_workflow("test-coverage.yaml", consent_1L_chr = "Y") # In other packages, run for "test-coverage.yaml" as well.
 write_to_tidy_pkg(z$x_ready4fun_manifest,
                   build_vignettes_1L_lgl = TRUE,
                   clean_license_1L_lgl = TRUE,
