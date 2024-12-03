@@ -9,9 +9,10 @@ test_that("List of model parameters is retrieved from Dataverse dataset",{
 }
 )
 test_that("Mode parameter values can be retrieved from paramters list",{
+  expect_no_error(parameters_ls <- get_input_data())
   expect_no_error(first_1L_int <- get_parameter_value("first", parameters_ls))
   # expect_true(!is.null(libraries_tb))
-  if(!is.null(first_int)){
+  if(!is.null(first_1L_int)){
     expect_true(first_1L_int==5)
   }
 }

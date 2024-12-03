@@ -31,7 +31,7 @@ x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Predict The Avertable Burde
   dev_pkgs_chr = c("ready4use"), # Name any development packages imported / suggested / depended on
   lifecycle_stage_1L_chr = "experimental",
   path_to_pkg_logo_1L_chr = "data-raw/logo/default.png",
-  piggyback_to_1L_chr = "ready4-dev/ready4", # Modelling project GitHub organisation #avertableburden/avert
+  piggyback_to_1L_chr = "avertableburden/avert", # Modelling project GitHub organisation # ready4-dev/ready4
   ready4_type_1L_chr = "modelling",
   zenodo_badge_1L_chr = character(0)# Once Zenodo DOI is set up, replace with link in the format of:
     # "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX"#
