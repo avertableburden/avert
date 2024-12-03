@@ -1,0 +1,48 @@
+---
+title: "Placeholder Vignette"
+output: rmarkdown::html_vignette
+# output: 
+#   rmarkdown::html_vignette:
+#     toc: true
+#   pdf_document:
+#     highlight: null
+#     number_sections: yes
+vignette: >
+  %\VignetteIndexEntry{Placeholder Vignette}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+```{r echo = F}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Note: **This vignette is illustrated with fake data**. The dataset explored in this example should not be used to inform decision-making.
+
+```{r results='hide', message=FALSE, warning=FALSE}
+library(avert)
+```
+
+This is a placeholder vignette that demonstrates the three illustrative functions that are bundled with the initial development version of the avert library.
+
+## Identify the publicly available project repositories 
+The `get_project_repos` function retrieves the names of publicly available repos in in the [avertableburden GitHub organisation](https://github.com/avertableburden).
+
+```{r}
+get_project_repos()
+```
+## Retrieve publicly available model parameters
+The `get_input_data` function retrieves a list object that stores (currently, placeholder) model parameter values from the [public Dataverse dataset](https://doi.org/10.7910/DVN/QTJJLZ). 
+
+```{r}
+parameters_ls <- get_input_data()
+```
+
+The `get_parameter_value` function retrieves the values of named parameters from the parameter values list.
+
+```{r}
+get_parameter_value("first", parameters_ls)
+```
+```{r}
+get_parameter_value("second", parameters_ls)
+```

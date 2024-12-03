@@ -2,10 +2,11 @@ library(ready4)
 library(ready4use)
 library(ready4fun)
 # MANUAL STEP. Write all your functions to R files in the new "fns" directory.
-x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Do Something Related To Mental Health Economic Modelling",
-                                 pkg_desc_1L_chr = "A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/).
-                            If a development version, you may wish to note that the software has been made available as part of the process of testing and documenting the library.
-                            You can also direct users with any questions about the library to the maintainer's email address (supply email here).",
+x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Predict The Avertable Burden Attributable To Mental Disorders",
+                                 pkg_desc_1L_chr = "An empty shell of an in development library for predicting the burden due to mental disorders that is theoretically avertable with existing healthcare interventions. 
+                            This library is being developed with the ready4 framework (https://ready4-dev.github.io/ready4/).
+                            This software has been made publicly available as part of the process of testing and documenting the library.
+                            For further information email matthew.hamilton2@monash.edu.",
                                  authors_prsn = c(utils::person(given = "Matthew",family = "Hamilton",email = "matthew.hamilton2@monash.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7407-9194")),
                                                   utils::person("CopyrightHolder", role = c("cph") # If no copyright holder is to be specified, leave as is. Otherwise update these details.
                                                                 )
@@ -13,22 +14,24 @@ x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Do Something Related To Men
                                  urls_chr = c("https://avertableburden.github.io/avert/",
                                               "https://github.com/avertableburden/avert",
                                               "https://ready4-dev.github.io/ready4/")) %>%
-  ready4fun::make_manifest(addl_pkgs_ls = ready4fun::make_addl_pkgs_ls(suggests_chr = c("knitr","knitrBootstrap","rmarkdown")#,
-                                                                       #imports_chr = c(),
-                                                                       #depends_chr = c()
+  ready4fun::make_manifest(addl_pkgs_ls = ready4fun::make_addl_pkgs_ls(suggests_chr = c("knitr","knitrBootstrap","rmarkdown"),
+                                                                       imports_chr = c("ready4use"),
+                                                                       depends_chr = c("ready4")
   ),
   build_ignore_ls = ready4fun::make_build_ignore_ls(file_nms_chr = c("initial_setup.R")),
   check_type_1L_chr = "ready4",
   copyright_holders_chr = "CopyrightHolder", # If no copyright holder is to be specified, leave as is. Otherwise update these details.
-  custom_dmt_ls = ready4fun::make_custom_dmt_ls(user_manual_fns_chr = c("get_this_from_that"
+  custom_dmt_ls = ready4fun::make_custom_dmt_ls(user_manual_fns_chr = c("get_input_data",
+                                                                        "get_parameter_value",
+                                                                        "get_project_repos"
                                                                         #,
                                                                         # all other functions that you plan to include in the main manual are named here.
 
                                                                         )),##
-  dev_pkgs_chr = NA_character_, # Name any development packages imported / suggested / depended on
+  dev_pkgs_chr = c("ready4use"), # Name any development packages imported / suggested / depended on
   lifecycle_stage_1L_chr = "experimental",
   path_to_pkg_logo_1L_chr = "data-raw/logo/default.png",
-  piggyback_to_1L_chr = "ready4-dev/ready4", # Modelling project GitHub organisation
+  piggyback_to_1L_chr = "ready4-dev/ready4", # Modelling project GitHub organisation #avertableburden/avert
   ready4_type_1L_chr = "modelling",
   zenodo_badge_1L_chr = character(0)# Once Zenodo DOI is set up, replace with link in the format of:
     # "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX"#

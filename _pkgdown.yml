@@ -17,4 +17,6 @@ development:
 reference:
 - title: "Functions"
 - contents:
-  - get_this_from_that
+  - get_input_data
+  - get_parameter_value
+  - get_project_repos

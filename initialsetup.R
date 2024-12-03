@@ -4,3 +4,4 @@
 # ready4fun::write_fn_type_dirs()
 # Make release at this point
 # Then start DATASET.R workflow.
+# usethis::use_testthat()

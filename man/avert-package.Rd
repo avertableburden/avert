@@ -3,15 +3,15 @@
 \docType{package}
 \name{avert-package}
 \alias{avert-package}
-\title{avert: Do Something Related to Mental Health Economic Modelling}
+\title{avert: Predict the Avertable Burden Attributable to Mental Disorders}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/). If a development version, you may wish to note that the software has been made available as part of the process of testing and documenting the library. You can also direct users with any questions about the library to the maintainer's email address (supply email here).
+An empty shell of an in development library for predicting the burden due to mental disorders that is theoretically avertable with existing healthcare interventions. This library is being developed with the ready4 framework (https://ready4-dev.github.io/ready4/). This software has been made publicly available as part of the process of testing and documenting the library. For further information email matthew.hamilton2@monash.edu.
 
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/). If a development version, you may wish to note that the software has been made available as part of the process of testing and documenting the library. You can also direct users with any questions about the library to the maintainer's email address (supply email here).
+An empty shell of an in development library for predicting the burden due to mental disorders that is theoretically avertable with existing healthcare interventions. This library is being developed with the ready4 framework (https://ready4-dev.github.io/ready4/). This software has been made publicly available as part of the process of testing and documenting the library. For further information email matthew.hamilton2@monash.edu.
 }
 \seealso{
 Useful links:
