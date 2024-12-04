@@ -68,4 +68,4 @@ if(!identical(index_1L_int, integer(0))){
     writeLines("DESCRIPTION")
   devtools::document()
 }
-
+#
