@@ -4,7 +4,7 @@ authors:
   - family-names: "Matthew"
     given-names: "Hamilton"
 title: "avert: Predict Avertable Burden Due to Mental Disorders"
-version: 0.0.0.9010
+version: 0.0.0.9012
 doi: 10.5281/zenodo.14279520
-date-released: 2024-12-02
+date-released: 2024-12-05
 url: "https://ready4-dev.github.io/avert/"
