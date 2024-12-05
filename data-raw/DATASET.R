@@ -23,7 +23,8 @@ x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Predict The Avertable Burde
   copyright_holders_chr = "CopyrightHolder", # If no copyright holder is to be specified, leave as is. Otherwise update these details.
   custom_dmt_ls = ready4fun::make_custom_dmt_ls(user_manual_fns_chr = c("get_input_data",
                                                                         "get_parameter_value",
-                                                                        "get_project_repos"
+                                                                        "get_project_repos",
+                                                                        "write_avert_report"
                                                                         #,
                                                                         # all other functions that you plan to include in the main manual are named here.
 
