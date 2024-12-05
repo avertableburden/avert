@@ -27,7 +27,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">avert</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unreleased version">0.0.0.9008</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unreleased version">0.0.0.9009</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,6 +105,15 @@ named parameters from the parameter values list.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/get_parameter_value.html">get_parameter_value</a></span><span class="op">(</span><span class="st">"second"</span>, <span class="va">parameters_ls</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">## [1] 6</span></span></code></pre>
+</div>
+<div class="section level2">
+<h2 id="render-report">Render report<a class="anchor" aria-label="anchor" href="#render-report"></a>
+</h2>
+<p>The <code>write_report</code> function retrieves a reporting template
+and passes the parameters list to that template to generate a
+report.</p>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/write_avert_report.html">write_avert_report</a></span><span class="op">(</span><span class="va">parameters_ls</span><span class="op">)</span></span></code></pre></div>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside>
