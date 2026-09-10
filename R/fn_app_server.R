@@ -378,9 +378,10 @@ avert_server <- function(
           
         ),
         
-        envir = new.env(
-          parent = baseenv()
-        ),
+        # envir = globalenv(),
+        # envir = new.env(
+        #   parent = baseenv()
+        # ),
         
         knit_root_dir = dirname(
           rmd_file
