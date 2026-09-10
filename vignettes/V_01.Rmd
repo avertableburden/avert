@@ -31,6 +31,7 @@ The `get_project_repos` function retrieves the names of publicly available repos
 ```{r}
 get_project_repos()
 ```
+
 ## Retrieve publicly available model parameters
 The `get_input_data` function retrieves a list object that stores (currently, placeholder) model parameter values from the [public Dataverse dataset](https://doi.org/10.7910/DVN/QTJJLZ). 
 
@@ -46,3 +47,11 @@ get_parameter_value("first", parameters_ls)
 ```{r}
 get_parameter_value("second", parameters_ls)
 ```
+
+## Render report
+The `write_report` function retrieves a reporting template and passes the parameters list to that template to generate a report.
+
+```{r eval = FALSE}
+write_avert_report(parameters_ls)
+```
+

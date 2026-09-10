@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/avertableburden/avert/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/avertableburden/avert/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/avertableburden/avert/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/avertableburden/avert/actions/workflows/test-coverage.yaml)
 [![codecov](https://codecov.io/gh/avertableburden/avert/branch/main/graph/badge.svg)](https://app.codecov.io/gh/avertableburden/avert)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14279520.svg)](https://doi.org/10.5281/zenodo.1427952)
 [![CRAN status](https://www.r-pkg.org/badges/version/avert)](https://CRAN.R-project.org/package=avert)
 <!-- badges: end -->
 
