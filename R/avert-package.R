@@ -1,3 +1,10 @@
+#' avert: Avertable Burden Decision Aid
+#'
+#' Package containing the Shiny application and supporting
+#' workflows for generating avertable burden reports.
+#'
+#' @importFrom magrittr %>%
+#'
 #' @keywords internal
 "_PACKAGE"
 

@@ -5,7 +5,7 @@ Authors@R: c(
     person("Matthew", "Hamilton", , "matthew.hamilton2@monash.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7407-9194"))
   )
-Description: An empty shell of an in development library for predicting
+Description: A shell of an in development library for predicting
     the burden due to mental disorders that is theoretically avertable
     with existing healthcare interventions.  This library is being
     developed with the ready4 framework
@@ -24,18 +24,22 @@ Suggests:
     knitr,
     knitrBootstrap,
     pkgload,
-    rmarkdown,
     testthat
 VignetteBuilder: knitr
-Imports: 
-    assertthat,
-    lifecycle,
+Imports:
+    shiny,
+    shinycssloaders,
+    rmarkdown,
     magrittr,
+    ready4,
+    replica,
+    DT,
+    assertthat,
+    bslib,
+    lifecycle,
     methods,
     purrr,
     ready4use (>= 0.0.0.9248),
     rlang
-Depends: 
-    ready4
 Remotes: 
     ready4-dev/ready4use
