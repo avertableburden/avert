@@ -347,7 +347,12 @@ avert_server <- function(
         "reports_",
         as.integer(Sys.time())
       )
-      
+      # message("PATH = ", input$path)
+      # message("WHEN = ", input$when)
+      # message("WHERE = ", paste(input$where, collapse = ", "))
+      # message("WHO = ", paste(input$who, collapse = ", "))
+      # message("RMD = ", rmd_file)
+      render_env <- new.env(parent = globalenv())
       rendered_file <- rmarkdown::render(
         
         input = rmd_file,
@@ -369,7 +374,7 @@ avert_server <- function(
           
           when = input$when,
           
-          where = input$where,
+          where = as.character(input$where),
           
           who = seq(
             input$who[1],
@@ -377,7 +382,7 @@ avert_server <- function(
           )
           
         ),
-        
+        envir = render_env,
         # envir = globalenv(),
         # envir = new.env(
         #   parent = baseenv()

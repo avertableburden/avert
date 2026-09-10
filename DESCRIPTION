@@ -32,15 +32,18 @@ Imports:
     rmarkdown,
     magrittr,
     ready4,
-    replica,
     DT,
     assertthat,
     bslib,
+    data.table,
     lifecycle,
     methods,
     purrr,
-    ready4show,
-    ready4use (>= 0.0.0.9248),
-    rlang
+    ready4show (>= 0.0.0.9115),
+    ready4use (>= 0.0.0.9250),
+    rlang,
+    replica (>= 0.0.0.9010)
 Remotes: 
-    ready4-dev/ready4use
+    ready4-dev/ready4show,
+    ready4-dev/ready4use,
+    ready4-dev/replica
