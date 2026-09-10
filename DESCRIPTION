@@ -5,7 +5,7 @@ Authors@R: c(
     person("Matthew", "Hamilton", , "matthew.hamilton2@monash.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7407-9194"))
   )
-Description: A shell of an in development library for predicting
+Description: An in development library for predicting
     the burden due to mental disorders that is theoretically avertable
     with existing healthcare interventions.  This library is being
     developed with the ready4 framework
