@@ -57,3 +57,11 @@ The `write_report` function retrieves a reporting template and passes the parame
 write_avert_report(parameters_ls)
 ```
 
+## Run app
+The `run_avert_app` function launches a user interface. However, this is intended for use in conjunction with data files that are currently restricted access.
+
+
+```{r eval = FALSE}
+run_avert_app()
+```
+

@@ -20,4 +20,5 @@ reference:
   - get_input_data
   - get_parameter_value
   - get_project_repos
+  - run_avert_app
   - write_avert_report
