@@ -1,0 +1,32 @@
+# avert
+
+## Predict the Avertable Burden Attributable to Mental Disorders
+
+An in development library for predicting the burden due to mental
+disorders that is theoretically avertable via existing healthcare
+interventions. This library is being developed with the ready4 framework
+(<https://ready4-dev.github.io/ready4/>). This software has been made
+publicly available as part of the process of testing and documenting the
+library. For further information email <matthew.hamilton2@monash.edu>.
+
+To install a development version of this software, run the following
+commands in your R console:
+
+``` r
+
+utils::install.packages("remotes")
+
+remotes:install_github("avertableburden/avert")
+```
+
+To launch the avert app use:
+
+``` r
+
+library(avert)
+
+run_avert_app()
+```
+
+Please note that the avert app requires access to data files that are
+currently restricted.

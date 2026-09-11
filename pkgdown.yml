@@ -1,10 +1,10 @@
-pandoc: 3.1.11
-pkgdown: 2.1.1
+pandoc: 3.8.3
+pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   avert: avert.html
   V_01: V_01.html
-last_built: 2024-12-05T04:28Z
+last_built: 2026-09-11T07:07Z
 urls:
   reference: https://avertableburden.github.io/avert/reference
   article: https://avertableburden.github.io/avert/articles
